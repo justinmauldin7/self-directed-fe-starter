@@ -7,10 +7,134 @@
 <body>
       <!--  the a tag below can link you to another HTML page  -->
       <!--  if you click the button in the browser right now, you'll get an error because that is not a real file path -->
-      <a href="<file path"><button class="default-button">GO TO OTHER PAGE</button></a>
+      <!-- <a href="<file path"><button class="default-button">GO TO OTHER PAGE</button></a> -->
+
+      <h1>Sweater Weather</h1>
+
+      <section class="signup">
+        <form class="form-container" action="">
+          <h2>Sign Up</h2>
+          <article class="form">
+            <label for="email">
+              <input id="email" type="text" placeholder="Email">
+            </label>
+            <label for="password">
+              <input id="password"type="text" placeholder="Password">
+            </label>
+            <label for="password_confirmation">
+              <input id="password_confirmation"type="text" placeholder="Password Confirmation">
+            </label>
+            <button id="signup-btn">Sign Up</button>
+          </article>
+        </form>
+      </section>
+
+      <section class="login">
+        <form class="form-container" action="">
+          <h2>Login</h2>
+          <article class="form">
+            <label for="email">
+              <input id="email" type="text" placeholder="Email">
+            </label>
+            <label for="password">
+              <input id="password"type="text" placeholder="Password">
+            </label>
+            <button id="login-btn">Login</button>
+          </article>
+        </form>
+      </section>
+
+      <section class="search">
+        <input type="text" class="search_field" placeholder="Search location by city & state">
+        <button id="search-btn">Search</button>
+      </section>
+
+      <section class="current_weather">
+        <div class="current_weather_tempatures">
+          <h3>Partly Cloudy</h3>
+          <h1>38</h1>
+          <div>
+            <h3>High: </h3>
+            <h3>Low: </h3>
+          </div>
+          <div class="current_weather_location">
+            <h2>Denver</h2>
+            <h3>11:11PM, 3/16</h3>
+          </div>
+          <div class="current_weather_buttons">
+            <button id="change_location-btn">Change Location</button>
+            <button id="favorite-btn">Favorite</button>
+            <button id="delete_favorite-btn">Remove Favorite</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="current_weather_details">
+        <div>
+          <h3>Details:</h3>
+          <h3>Partly Cloudy</h3>
+          <h3>Today mostely cloudy until afternoon.</h3>
+        </div>
+        <div>
+          <h3>Feels Like: 30</h3>
+          <h3>Humidity: 75%</h3>
+          <h3>Visibility: 10 miles</h3>
+          <h3>UV Index: 2</h3>
+        </div>
+      </section>
+
+      <section class="forecast">
+        <h3>Forecast:</h3>
+        <div class="hourly_forecast">
+          <div>
+            <h4>9AM</h4>
+            <h4>38</h4>
+          </div>
+          <div>
+            <h4>10AM</h4>
+            <h4>38</h4>
+          </div>
+          <div>
+            <h4>11AM</h4>
+            <h4>38</h4>
+          </div>
+          <div>
+            <h4>12PM</h4>
+            <h4>38</h4>
+          </div>
+          <div>
+            <h4>1PM</h4>
+            <h4>38</h4>
+          </div>
+          <div>
+            <h4>2PM</h4>
+            <h4>38</h4>
+          </div>
+          <div>
+            <h4>3PM</h4>
+            <h4>38</h4>
+          </div>
+          <div>
+            <h4>4PM</h4>
+            <h4>38</h4>
+          </div>
+        </div>
+
+        <div class="five_day_forecast">
+          <div>
+            <h3>Monday</h3>
+            <h4>Sunny</h4>
+            <h4>90%</h4>
+            <h4>45</h4>
+            <h4>25</h4>
+          </div>
+        </div>
+      </section>
+
     <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
+
   <script src="main.bundle.js"></script>
 </body>
 </html>
