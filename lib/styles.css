@@ -1,0 +1,69 @@
+body {
+  color: #005073;
+  background-color: #71c7ec;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-container {
+  width: 50%;
+  text-align: center;
+  color: #005073;
+  margin: 2rem auto;
+  padding: 20px;
+  background-color: #71c7ec;
+  border: 3px solid #107dac;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+input::-webkit-input-placeholder {
+  color: #005073;
+  opacity: 0.9;
+}
+
+.search {
+  text-align: center;
+}
+
+button {
+  font-size: 10px;
+  color: #005073;
+  background-color: ##1ebbd7;
+  padding: 10px 24px;
+  border-radius: 8px;
+}
+
+section {
+  margin: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.current_weather, .current_weather_details, .forecast {
+  text-align: center;
+  border: 3px solid #107dac;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+.current_weather_tempatures, .current_weather_location {
+  padding: 20px;
+  text-align: center;
+}
+
+.current_weather_buttons {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.forecast div {
+  display: flex;
+  padding-left: 20px;
+}
+
+.five_day_forecast div {
+  padding: 20px;
+  display: inline;
+}
