@@ -46,21 +46,22 @@
 
       <section class="search">
         <h2>Search Location:</h2>
-        <input type="text" class="search_field" placeholder="Searchby city & state">
+        <input type="text" id="search_field" placeholder="Search by city & state">
         <button id="search-btn">Search</button>
       </section>
 
-      <section class="current_weather">
+      <section id="current_weather">
         <div class="current_weather_tempatures">
-          <h3>Partly Cloudy</h3>
-          <h1>38</h1>
+          <h3 id="short_summary"></h3>
+          <h1 id="temp"></h1>
           <div>
-            <h3>High: </h3>
-            <h3>Low: </h3>
+            <h3 id="current_high"></h3>
+            <h3 id="current_low"></h3>
           </div>
           <div class="current_weather_location">
-            <h2>Denver</h2>
-            <h3>11:11PM, 3/16</h3>
+            <h2 id="city"></h2>
+            <h3 id="current_date"></h3>
+            <h3 id="current_time"></h3>
           </div>
         </div>
         <div class="current_weather_buttons">
@@ -70,7 +71,7 @@
         </div>
       </section>
 
-      <section class="current_weather_details">
+      <section id="current_weather_details">
         <div>
           <h3>Details:</h3>
           <h3>Partly Cloudy</h3>
@@ -84,7 +85,7 @@
         </div>
       </section>
 
-      <section class="forecast">
+      <section id="forecast">
         <h3>Forecast:</h3>
         <div class="hourly_forecast">
           <div>
