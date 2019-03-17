@@ -12,7 +12,7 @@
       <h1>Sweater Weather</h1>
 
       <section class="signup">
-        <form class="form-container" action="">
+        <form class="container">
           <h2>Sign Up</h2>
           <article class="form">
             <label for="email">
@@ -30,7 +30,7 @@
       </section>
 
       <section class="login">
-        <form class="form-container" action="">
+        <form class="container">
           <h2>Login</h2>
           <article class="form">
             <label for="email">
@@ -45,122 +45,130 @@
       </section>
 
       <section class="search">
-        <h2>Search Location:</h2>
-        <input type="text" id="search_field" placeholder="Search by city & state">
-        <button id="search-btn">Search</button>
+        <div class="container">
+          <h2>Search Location:</h2>
+          <input type="text" id="search_field" placeholder="Search by city & state">
+          <button id="search-btn">Search</button>
+        </div>
       </section>
 
       <section id="current_weather">
-        <div class="current_weather_tempatures">
-          <h3 id="short_summary"></h3>
-          <h1 id="temp"></h1>
-          <div>
-            <h3 id="current_high"></h3>
-            <h3 id="current_low"></h3>
+        <div class="container">
+          <div class="current_weather_tempatures">
+            <h3 id="short_summary"></h3>
+            <h1 id="temp"></h1>
+            <div>
+              <h3 id="current_high"></h3>
+              <h3 id="current_low"></h3>
+            </div>
+            <div class="current_weather_location">
+              <h2 id="city"></h2>
+              <h3 id="current_date"></h3>
+              <h3 id="current_time"></h3>
+            </div>
           </div>
-          <div class="current_weather_location">
-            <h2 id="city"></h2>
-            <h3 id="current_date"></h3>
-            <h3 id="current_time"></h3>
+          <div class="current_weather_buttons">
+            <button id="change_location-btn">Change Location</button>
+            <button id="favorite-btn">Favorite</button>
+            <button id="delete_favorite-btn">Remove Favorite</button>
           </div>
-        </div>
-        <div class="current_weather_buttons">
-          <button id="change_location-btn">Change Location</button>
-          <button id="favorite-btn">Favorite</button>
-          <button id="delete_favorite-btn">Remove Favorite</button>
         </div>
       </section>
 
       <section id="current_weather_details">
-        <div>
-          <h3>Details:</h3>
-          <h3>Partly Cloudy</h3>
-          <h3>Today mostely cloudy until afternoon.</h3>
-        </div>
-        <div>
-          <h3>Feels Like: 30</h3>
-          <h3>Humidity: 75%</h3>
-          <h3>Visibility: 10 miles</h3>
-          <h3>UV Index: 2</h3>
+        <div class="container">
+          <div>
+            <h3>Details:</h3>
+            <h3>Partly Cloudy</h3>
+            <h3>Today mostely cloudy until afternoon.</h3>
+          </div>
+          <div>
+            <h3>Feels Like: 30</h3>
+            <h3>Humidity: 75%</h3>
+            <h3>Visibility: 10 miles</h3>
+            <h3>UV Index: 2</h3>
+          </div>
         </div>
       </section>
 
       <section id="forecast">
-        <h3>Forecast:</h3>
-        <div class="hourly_forecast">
-          <div>
-            <h4>9AM</h4>
-            <h4>38</h4>
-          </div>
-          <div>
-            <h4>10AM</h4>
-            <h4>38</h4>
-          </div>
-          <div>
-            <h4>11AM</h4>
-            <h4>38</h4>
-          </div>
-          <div>
-            <h4>12PM</h4>
-            <h4>38</h4>
-          </div>
-          <div>
-            <h4>1PM</h4>
-            <h4>38</h4>
-          </div>
-          <div>
-            <h4>2PM</h4>
-            <h4>38</h4>
-          </div>
-          <div>
-            <h4>3PM</h4>
-            <h4>38</h4>
-          </div>
-          <div>
-            <h4>4PM</h4>
-            <h4>38</h4>
-          </div>
-        </div>
-
-        <div class="five_day_forecast">
-          <div>
-            <h3>Monday</h3>
-            <h4>Sunny</h4>
-            <h4>90%</h4>
-            <h4>45</h4>
-            <h4>25</h4>
+        <div class="container">
+          <h3>Forecast:</h3>
+          <div class="hourly_forecast">
+            <div>
+              <h4>9AM</h4>
+              <h4>38</h4>
+            </div>
+            <div>
+              <h4>10AM</h4>
+              <h4>38</h4>
+            </div>
+            <div>
+              <h4>11AM</h4>
+              <h4>38</h4>
+            </div>
+            <div>
+              <h4>12PM</h4>
+              <h4>38</h4>
+            </div>
+            <div>
+              <h4>1PM</h4>
+              <h4>38</h4>
+            </div>
+            <div>
+              <h4>2PM</h4>
+              <h4>38</h4>
+            </div>
+            <div>
+              <h4>3PM</h4>
+              <h4>38</h4>
+            </div>
+            <div>
+              <h4>4PM</h4>
+              <h4>38</h4>
+            </div>
           </div>
 
-          <div>
-            <h3>Tuesday</h3>
-            <h4>Sunny</h4>
-            <h4>90%</h4>
-            <h4>45</h4>
-            <h4>25</h4>
-          </div>
+          <div class="five_day_forecast">
+            <div>
+              <h3>Monday</h3>
+              <h4>Sunny</h4>
+              <h4>90%</h4>
+              <h4>45</h4>
+              <h4>25</h4>
+            </div>
 
-          <div>
-            <h3>Wednesday</h3>
-            <h4>Sunny</h4>
-            <h4>90%</h4>
-            <h4>45</h4>
-            <h4>25</h4>
-          </div>
+            <div>
+              <h3>Tuesday</h3>
+              <h4>Sunny</h4>
+              <h4>90%</h4>
+              <h4>45</h4>
+              <h4>25</h4>
+            </div>
 
-          <div>
-            <h3>Thursday</h3>
-            <h4>Sunny</h4>
-            <h4>90%</h4>
-            <h4>45</h4>
-            <h4>25</h4>
-          </div>
+            <div>
+              <h3>Wednesday</h3>
+              <h4>Sunny</h4>
+              <h4>90%</h4>
+              <h4>45</h4>
+              <h4>25</h4>
+            </div>
 
-          <div>
-            <h3>Friday</h3>
-            <h4>Sunny</h4>
-            <h4>90%</h4>
-            <h4>45</h4>
-            <h4>25</h4>
+            <div>
+              <h3>Thursday</h3>
+              <h4>Sunny</h4>
+              <h4>90%</h4>
+              <h4>45</h4>
+              <h4>25</h4>
+            </div>
+
+            <div>
+              <h3>Friday</h3>
+              <h4>Sunny</h4>
+              <h4>90%</h4>
+              <h4>45</h4>
+              <h4>25</h4>
+            </div>
           </div>
         </div>
       </section>
