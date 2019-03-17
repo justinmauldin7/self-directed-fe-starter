@@ -41,7 +41,7 @@ section {
   margin-right: 150px;
 }
 
-.current_weather, .current_weather_details, .forecast {
+#current_weather, #current_weather_details, #forecast {
   text-align: center;
   border: 3px solid #107dac;
   border-radius: 20px;
