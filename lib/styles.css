@@ -7,7 +7,7 @@ h1 {
   text-align: center;
 }
 
-.form-container {
+.container {
   width: 50%;
   text-align: center;
   color: #005073;
@@ -16,7 +16,7 @@ h1 {
   background-color: #71c7ec;
   border: 3px solid #107dac;
   border-radius: 20px;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 input::-webkit-input-placeholder {
   color: #005073;
@@ -30,8 +30,9 @@ input::-webkit-input-placeholder {
 button {
   font-size: 10px;
   color: #005073;
-  background-color: ##1ebbd7;
+  background-color: #1ebbd7;
   padding: 10px 24px;
+  border: 1px solid #107dac;
   border-radius: 8px;
 }
 
@@ -43,9 +44,6 @@ section {
 
 #current_weather, #current_weather_details, #forecast {
   text-align: center;
-  border: 3px solid #107dac;
-  border-radius: 20px;
-  opacity: 0.9;
 }
 
 .current_weather_tempatures, .current_weather_location {
